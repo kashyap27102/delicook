@@ -1,0 +1,36 @@
+/* src/MealPlanner.css */
+
+.meal-planner {
+  padding: 20px;
+}
+
+.fc {
+  font-family: "Inter", sans-serif;
+}
+
+.fc-toolbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fc-daygrid-day {
+  border: 1px solid #e5e7eb;
+}
+
+.fc-daygrid-day-top {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.fc-daygrid-day-events {
+  padding: 0.5rem;
+}
+
+.fc-event {
+  background-color: #3b82f6;
+  border: none;
+  color: white;
+  padding: 0.2rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}

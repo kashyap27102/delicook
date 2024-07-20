@@ -9,6 +9,7 @@ import WeeklyCalendar from "./components/WeeklyCalander.tsx";
 import IngredientsDayWise from "./components/IngredientsDayWise.tsx";
 import RecipeList from "./components/RecipeList.tsx";
 import RecipePage from "./components/RecipePage.tsx";
+import UserPreferences from "./components/UserPreferences.tsx";
 
 const router = createBrowserRouter([
   {
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <Login />,
+    element: <UserPreferences />,
   },
   {
     path: "/signup",
